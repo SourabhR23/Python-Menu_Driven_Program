@@ -53,7 +53,7 @@ while True:
         pyttsx3.speak("Opening Notepad.")
         os.system("notepad")
         
-    # Exit/Quitting of application codition
+    # Exit/Quitting of application 
     elif ('exit' in p.lower() or 'close' in p.lower() or 'quit' in p.lower()):
         pyttsx3.speak("Thank you for using the application!")
         break
