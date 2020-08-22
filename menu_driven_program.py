@@ -18,7 +18,6 @@ x = "Welcome to the menu driven program!\nI am here to direct you to the applica
 voice.say(x)
 print(x)
 voice.runAndWait()
-pyttsx3.speak("Please enter the application: ")
     
 while True:
     # Taking input from the user
